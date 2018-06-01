@@ -1,4 +1,4 @@
-*This extension has been based off of another extension: [Card Colors for Trello](https://chrome.google.com/webstore/detail/card-colors-for-trello/nodlpencjjlohojddhflnahnfpfanbjm?hl=en)*
+*This extension has been based off of another extension: [Card Colors for Trello](https://chrome.google.com/webstore/detail/card-colors-for-trello/nodlpencjjlohojddhflnahnfpfanbjm?hl=en). Therefore, most of the credit for this extension goes to that developer*
 
 In Card Colors for Trello, there are only two options for coloring cards: "Use first label" or "Merge all label colors". I didn't want that. I wanted my Trello cards to be colored based on only two things: whether the label says "Feature" or "Bug".
 
