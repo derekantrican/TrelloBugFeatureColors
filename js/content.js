@@ -14,17 +14,17 @@ function colorCards(template) {
 
     var relatedCard = getCard(element);
     if (relatedCard) {
-        assignColorFromLabels(relatedCard, relatedCard.querySelectorAll(".list-card-front-labels-container button"));
+        assignColorFromLabels(relatedCard, relatedCard.querySelectorAll("span") /*This gets more than just labels, but the filter on textContent below will take care of that*/);
     }
 }
 
 function getCard(element) {
-    if (element.classList.contains('list-card-details'))
+    if (element.hasAttribute('data-card-id'))
         return element;
 
     var parent = element.parentElement;
     while (parent != null) {
-        if (parent.classList.contains('list-card-details'))
+        if (parent.hasAttribute('data-card-id'))
             return parent;
 
         parent = parent.parentElement;
